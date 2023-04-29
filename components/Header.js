@@ -8,9 +8,9 @@ const Header = () => {
   const [navbar, setNavbar] = useState(false);
   return (
     <div>
-    {/* code for the header */}
+      {/* code for the header */}
       <nav >
-        <div className="justify-between px-4 mx-auto  md:items-center md:flex md:px-8">
+        <div className="justify-between px-4 mx-auto bg-white  md:items-center md:flex md:px-8 ">
           <div>
             <div className="flex items-center justify-between py-3 md:py-5 md:block">
 
@@ -25,7 +25,7 @@ const Header = () => {
 
               <div className="md:hidden">
                 <button
-                  className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
+                  className="p-2  text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
                   onClick={() => setNavbar(!navbar)}
                 >
                   {navbar ? (
@@ -47,7 +47,7 @@ const Header = () => {
                       className="w-6 h-6 text-white"
                       fill="none"
                       viewBox="0 0 24 24"
-                      stroke="currentColor"
+                      stroke="black"
                       strokeWidth={2}
                     >
                       <path
@@ -66,7 +66,7 @@ const Header = () => {
               className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${navbar ? 'block' : 'hidden'
                 }`}
             >
-              <ul className="items-center  space-y-8 md:flex md:space-x-6 md:space-y-0">
+              <ul className="items-center  space-y-8 md:flex md:space-x-6 md:space-y-0  text-2xl">
                 <li >
                   <Link href="/">
                     Our Services
@@ -88,18 +88,21 @@ const Header = () => {
                   </Link>
                 </li>
                 <li >
-                  <Link href="/contact">
+                <button className="h-14  cursor-pointer rectangle-xl bg-green-600 px-8 font-semibold text-white  hover:shadow-xl">
+                  <Link href="/Contact" className='s'>
                     Contact us
                   </Link>
+                  </button>
                 </li>
+
               </ul>
             </div>
           </div>
         </div>
       </nav>
-     {/* end of the header  */}
-     
+      {/* end of the header  */}
+
     </div>
   );
-}      
+}
 export default Header;             
