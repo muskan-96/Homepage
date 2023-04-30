@@ -11,10 +11,10 @@ function ThreeDivs() {
       </div>
       <div className="w-full md:w-1/3 flex flex-col justify-center text-center my-8 md:font-bold">
         <h3 className="md:text-2xl text-xl font-semibold md:font-bold mb:text-md">
-          "Globally, 85 percent of people indicate <br />
+        &ldquo; Globally, 85 percent of people indicate <br />
           that they have shifted their purchase <br /> 
           behavior towards being more sustainable <br />
-          in the past five years"<br />
+          in the past five years &ldquo; <br />
         </h3>
         <p className='font-semibold mt-5 text-gray-1900 '>Read more   &gt;</p>
         <div className="flex justify-center items-center h-40 md:hidden">
