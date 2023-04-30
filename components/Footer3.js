@@ -1,24 +1,27 @@
-import Link from "next/link";
-import Image from "next/image";
+import React from "react";
 
-const Footer3 = () => {
+const CenteredList = () => {
   return (
-    <div className="bg-white flex flex-col md:flex-row md:justify-between items-center px-4 md:px-8 py-4">
-      <div className="flex items-center justify-center md:justify-start  l">
-        <ul className="flex flex-col md:flex-row md:space-x-8 text-center md:text-left">
-          <li>
-            @2020 Beyond Sustainability. All rights reserved 
-          </li>
-          <li>
-            Privacy Policy 
-          </li>
-          <li>
-            Terms of Service 
-          </li>
-        </ul>
-      </div>
+    <div className="flex flex-col mt-4  mb-8 md:flex-row items-center justify-center">
+      <ul className="flex flex-col md:flex-row md:space-x-8 text-center md:text-left text-gray-500">
+      
+      <li className="mt-4 md:mt-0 hidden md:block">© 2020 Beyond Sustainability. All rights reserved</li>
+
+        <li className="mt-4 md:mt-0">Privacy Policy</li>
+        <li className="mt-4 md:mt-0">Terms of Service</li>
+        {/** Render "Contact us" list item only in mobile view */}
+        <li className="mt-4 md:hidden">Site Map </li>
+        <li className="mt-8 md:hidden text-center">© 2020 Beyond Sustainability.<br/> All rights reserved.</li>
+
+       
+       
+      </ul>
     </div>
   );
 };
 
-export default Footer3;
+export default CenteredList;
+
+
+
+

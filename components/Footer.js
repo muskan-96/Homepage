@@ -3,8 +3,8 @@ import Image from "next/image";
 
 const Footer = () => {
     return(
-        <div className="bg-white">
-            <div className="py-8 text-center md:text-left ">
+        <div className="bg-white  ">
+            <div className="py-8 text-center md:text-left">
                 <p className="text-gray-500 text-lg font-medium">Trusted by companies</p>
             </div>
             <div className="px-4 md:px-8">
