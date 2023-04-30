@@ -27,7 +27,7 @@ function MainPage() {
               </div>
             </div>
             <div className="w-full md:w-1/2 order-1  pl-8 mr-10  ml-2 md:order-2">
-              <Image src="/images/Group 4.png" alt="My Logo" width={700} height={600} layout="responsive" />
+              <Image src="/images/Group4.png" alt="My Logo" width={700} height={600} layout="responsive" />
             </div>
           </div>
         </div>
