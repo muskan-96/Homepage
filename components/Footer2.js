@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Footer2 = () => {
   return (
-    <div className="bg-white flex mt-20 flex-col md:flex-row md:justify-between items-center px-4 md:px-8 py-4">
+    <div className="bg-white flex pt-20 flex-col md:flex-row md:justify-between items-center px-4 md:px-8 py-4">
       <div className="flex items-center mt-4 ">
         <Link href="/">
           <Image src="/images/main-logo.png" alt="My Logo" width={200} height={100}  />

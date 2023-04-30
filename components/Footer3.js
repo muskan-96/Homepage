@@ -2,7 +2,7 @@ import React from "react";
 
 const CenteredList = () => {
   return (
-    <div className="flex flex-col mt-4  mb-8 md:flex-row items-center justify-center">
+    <div className="flex flex-col mt-4  pb-8 md:flex-row items-center justify-center">
       <ul className="flex flex-col md:flex-row md:space-x-8 text-center md:text-left text-gray-500">
       
       <li className="mt-4 md:mt-0 hidden md:block">© 2020 Beyond Sustainability. All rights reserved</li>
